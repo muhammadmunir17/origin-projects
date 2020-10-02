@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NerubaTech</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <img src="./css/IMG_20201003_001744_301.JPG">
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2> Hi,<br>Welcome To Neruba<span>Tech</span></h2>
+     <!--    <p>We at Neruba aim to bring you professional looking websites with elegant designs tailored 
+               to your unique tastes and reqiurements.<br>We are more mission focused than ever on bringing
+               you repsonsive websites with the lastest and greatest,cutting edge technologies at every layer 
+               of the stack.-->
+            </p>
+            <a href="#" class="glow">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> 
+                Get Started
+            </a>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="./css/facebook.svg"></a></li>
+            <li><a href="#"><img src="./css/twitter.svg"></a></li>
+            <li><a href="#"><img src="css/telegram.svg"></a></li>
+        </ul>
+    </section>
+    
+    <div id="navigation">
+        <ul>
+            <li data-text="Home"><a href="">Home</a></li>
+            <li data-text="Services"><a href="">Services</a></li>
+            <li data-text="Portfolio"><a href="">Portfolio</a></li>
+            <li data-text="Team"><a href="">Team</a></li>
+            <li data-text="About"><a href="">About</a></li>
+            <li data-text="Contact Us"><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+
+  
+    <script type="text/javascript">
+    function toggle() {
+        var sec= document.getElementById('sec');
+        var nav= document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+    }
+    </script>
+
+    <section class="about">
+        <div class="heading haboutus">
+            <h2>About Us</h2>
+        </div>
+        <div class="contentt aboutcontent">
+            <div class="contentbox w50">
+                <h3>Our Mantra</h3>
+                <p>
+                    We at Neruba aim to bring you professional looking websites with elegant designs tailored 
+                    to your unique tastes and reqiurements.<br>We are more mission focused than ever on bringing
+                    you repsonsive websites with the lastest and greatest,cutting edge technologies at every layer 
+                    of the stack. 
+                </p>
+            </div>
+            <div class="w50">
+                <img src="./css/tech.png" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Explore our range of digital services which can be customised and tailored to your 
+               specific needs.<br>Just let us know
+            </p>
+        </div>
+        <div class="contentt">
+            <div class="servicesbox">
+                <img src="./css/icon1(2).png">
+                <h2>Web Design</h2>
+            </div>
+            <div class="servicesbox">
+                <img src="./css/icon2(2).png">
+                <h2>Web Development</h2>
+            </div>
+            <div class="servicesbox">
+                <img src="./css/icon6.png">
+                <h2>Content Creation</h2>
+            </div>
+            <div class="servicesbox">
+                <img src="./css/icon5.png">
+                <h2>Content Writing</h2>
+            </div>
+            <div class="servicesbox">
+                <img src="./css/icon1.png">
+                <h2>Graphic Design</h2>
+            </div>
+            <div class="servicesbox">
+                <img src="./css/icon3.png">
+                <h2>Branding</h2>
+            </div>
+        </div>
+
+    </section>
+    <section class="portfolio">
+        <div class="heading white">
+            <h2>Our lastest work</h2>
+            <p>See our latest designs
+            </p>
+        </div>
+        <div class="content">
+
+            <div class="workbox">
+                <img src="./css/tash.png">
+            </div>
+            <div class="workbox">
+                <img src="./css/pnahim.png">
+            </div>
+            <div class="workbox">
+                <img src="./css/lail.png">
+            </div>
+            <div class="workbox lail">
+                <img src="./css/colail.jpg">
+            </div>
+            <div class="workbox ">
+                <img src="./css/ash1.png">
+            </div>
+            <div class="workbox ">
+                <img src="./css/ash2.png">
+            </div>
+            <div class="workbox ">
+                <img src="./css/ash3.png">
+            </div>
+            <div class="workbox">
+                <img src="./css/ash4.png">
+            </div>
+          
+        </div>
+        <div class="heading white">
+            <h2>Our lastest Web clients</h2>
+        </div>
+        <div class="content">
+            <div class="workbox">
+                <img src="./css/tash.png">
+            </div>
+            <div class="workbox">
+                <img src="./css/pnahim.png">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,180 @@
+/* RESET-- sets default measurement for all elements
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+ a:visited{
+     color: black;
+ }
+
+
+header{
+    text-align:center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+body{
+    background-color: f4f4f4;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    
+    /*shorthand
+    font: normal 16px Arial,helvetica,sans-serif;
+    */
+
+    line-height: 1.6em;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.button {
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+} 
+
+.clr{
+    clear: both;
+}
+.button:hover{
+    background: #333;
+    color: #fff;
+}
+
+.box-1{
+    background-color: gray;
+    color: white;
+    border: 5px black solid;
+    border-bottom-width:3px ;
+    border-bottom-left-radius: 10px;
+    border-top-style: dotted;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    margin: 30px;
+}
+
+.box-1 h1{
+    text-align: center;
+    font-family: tahoma;
+    font-weight: bold;
+    color: whitesmoke;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+
+.categories{
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.categories ul{
+    list-style: square;
+
+}
+
+.categories li{
+    padding-bottom: 5px;
+    border-bottom: thin 1px #333;
+  /*to add image as bulletpoint
+   list-style-image: url("../images/nameOfImage.extension(png)");
+   */
+}
+
+
+
+.form{
+    padding: 20px;
+}
+
+.form-group{
+    padding-bottom: 20px;
+}
+
+.form-group label{
+    display: flex;
+}
+
+.form input[type="text"], .form textarea{
+    padding: 8px;
+    width: 70%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    color: teal;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 10px;
+    position: relative;
+}
+
+.p-box h1{ 
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+    
+}

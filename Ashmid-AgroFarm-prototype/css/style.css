@@ -1,0 +1,198 @@
+:root{
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Catameran',sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-size: 1.4rem;
+    
+}
+
+body #section1{
+    background-image: url("./mike.jpg");
+}
+
+
+h1,h2,h3,h3,h4 {
+    line-height: 1.6;
+    letter-spacing: 0;
+    box-sizing: border-box;
+    margin: 0.5em;
+}
+
+a{
+    color: rgb(33, 73, 23);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    height:150px;
+    margin-bottom: 0;
+}
+
+.section img{
+    
+}
+
+.container {
+    max-width:1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+
+.navbar{
+    font-size: 1.2rem;
+    padding-top: 0rem;
+    padding-bottom:0rem;
+   /* border-top: rgb(71, 131, 56) 10px solid; */
+    
+}
+
+.navbar .container{
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3rem;
+    align-items:center;
+    
+   
+    
+}
+
+.navbar .container .logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 30px;
+    padding-left: inherit;
+    text-align: center;
+    margin-bottom:0 ;
+}
+.navbar .container .nav{
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 0px;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom:30px ;
+}
+
+.navbar .logo >img{
+    
+    margin-top: 1rem;
+    margin-bottom: 0;
+    align-self: left;
+   
+  
+
+}
+
+.navbar .nav{
+    justify-self: flex-end;
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+    
+}
+
+.navbar .nav a{
+    padding: 0 1rem;
+    margin-top: 9rem;
+    
+}
+
+.navbar .nav a:hover{
+    color:black;
+}
+
+
+#section {
+    background-image: url("./envato.jpg");
+    background-position:center;
+    min-height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 9rem;
+    max-height: 600px;
+   
+}
+
+#section1 {
+    color: rgb(3, 59, 59);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+#section2{
+    font-weight:600;
+    font-size: 1.3rem;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10rem;
+    
+}
+#section3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#section3 h3{
+    color:rgb(110, 199, 9) ;
+    text-align: center;
+}
+/*utilities*/
+.btn{
+    display: inline-block;
+    background-image: transparent;
+    color: rgb(22, 53, 14);
+    text-align: center;
+    padding: 0.4rem 0.8rem;
+    border: 2px rgb(33, 73, 23) solid;
+    font-size: 1.0rem;
+    border-radius: 30px;
+    margin-top: 3rem;
+}
+
+
+
+
+.btn:hover{
+    color: white;
+    background-color: yellowgreen;
+    border: transparent;
+    
+}
+
+
+.btn:active{
+    color: white;
+    background-color: yellowgreen;
+    border: transparent;
+}
+
+.nav .btn{
+    margin-top:1rem ;
+    margin-left: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+
+

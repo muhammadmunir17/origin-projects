@@ -1,0 +1,72 @@
+#body {
+    background-color: #f4f;
+    color: #555;
+    font-style: arial,helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.ruba{
+    color: blanchedalmond;
+}
+
+#header{
+    color:black;
+    font-size: 30px;
+    font-family:monospace;
+    text-align: left;
+    background-color: rgba(72, 126, 58, 0.87);
+    border: 15px rgba(72, 126, 58, 0.87) solid;
+    border-radius: 5px;
+    
+
+}
+
+#nav-bar{
+    background-color: grey;
+    color:#fff;
+    border-radius: 10px;
+    border:10px;
+}
+
+#nav-bar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#nav-bar li {
+    display: inline;
+}
+
+
+#nav-bar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#section {
+    background-image: url("./envato.jpg");
+    background-position: center;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 1px;
+
+
+}
+
+#section h1{
+    color: white;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    text-align: center;
+}
