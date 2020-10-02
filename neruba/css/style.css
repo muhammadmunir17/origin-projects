@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Catamaran',sans-serif;
+    
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .hide-on-big{
@@ -398,7 +403,7 @@ header #toggle:after{
     margin-left: rem;
     margin-top: rem;
     overflow: hidden;
-    background: #0113229c;
+    background: rgb(61, 61, 61);
 }
 .portfolio .content{
     display: flex;
@@ -426,6 +431,97 @@ header #toggle:after{
     height: 100px;
 }
 
+.contact{
+    background: #111;
+    padding-top: 2rem;
+    
+}
+
+.formbox{
+    min-width: 60%;
+}
+
+.formbox form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formbox form h3,
+.contactinfo h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.formbox form input,
+.formbox form textarea
+{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: white;
+    resize: none;
+}
+
+.formbox form textarea{
+    min-height: 200px;
+}
+.formbox form input::placeholder,
+.formbox form textarea::placeholder{
+    color: #777;
+}
+
+.formbox form input[type="submit"]{
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contactinfo{
+    min-width: 40%;
+    margin-left: 7rem;
+}
+
+.contactinfobox{
+    position: relative;
+}
+
+.contactinfobox .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contactinfobox .box .icon{
+    min-width: 40px;
+    padding-top: 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 24px;
+}
+
+
+.contactinfobox .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactinfobox .box .text h3{
+    font-weight: 500;
+    color: #2196f3;
+    margin-bottom: 0;
+}
 .sci{
     position: absolute;
     display: flex;
@@ -548,7 +644,16 @@ header #toggle:after{
         margin-bottom: 2rem;
         margin-left: 0.5rem;
     }
+    
+    .w50 img{
+        height: 200px;
+    }
 
+
+
+    .portfolio .content{
+        
+    }
     .portfolio .content .workbox{
         width: 100%;
         box-sizing: border-box;
@@ -556,8 +661,13 @@ header #toggle:after{
     }
 
     .portfolio .content .workbox img{
-
+       
        max-width: 100%;
+    }
+
+    .formbox{
+        padding-left: 2rem;
+        width: 90%;
     }
     .sci{
         height: 25px;
