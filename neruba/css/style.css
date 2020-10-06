@@ -557,6 +557,11 @@ header #toggle:after{
 }
 
 @media(max-width:867px){
+
+    body{
+        overflow-x: hidden;
+    }
+
     header{
         padding: 20px 50px;
     }
