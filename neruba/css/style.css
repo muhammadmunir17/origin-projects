@@ -500,8 +500,9 @@ header #toggle:after{
     display: flex;
 }
 .contactinfobox .box .icon{
-    min-width: 40px;
-    padding-top: 4px;
+    min-width: 60px;
+    padding-top: 2px;
+    padding-bottom: 10px;
     color: white;
     display: flex;
     justify-content: center;
@@ -623,6 +624,7 @@ header #toggle:after{
 
     #navigation {
         width: 250px;
+        overflow-x: hidden;
     }
 
     #navigation ul li a {
@@ -638,9 +640,17 @@ header #toggle:after{
     }
 
     .haboutus{
-        width: 80%;
+        width: 78%;
     }
 
+    .services .heading{
+        padding-right: 2rem;
+    }
+
+
+    .portfolio .heading{
+        padding-right: 2rem;
+    }
     .contentt{
         display:flex;
         flex-direction: column;
@@ -654,6 +664,7 @@ header #toggle:after{
     
     .w50 img{
         height: 200px;
+        margin-right: 55%;
     }
 
 
