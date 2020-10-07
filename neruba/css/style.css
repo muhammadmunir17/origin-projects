@@ -490,6 +490,7 @@ header #toggle:after{
     margin-left: 7rem;
 }
 
+
 .contactinfobox{
     position: relative;
 }
@@ -500,7 +501,7 @@ header #toggle:after{
     display: flex;
 }
 .contactinfobox .box .icon{
-    min-width: 60px;
+    min-width: 80px;
     padding-top: 2px;
     padding-bottom: 10px;
     color: white;
@@ -510,7 +511,9 @@ header #toggle:after{
     font-size: 24px;
 }
 
-
+.contactinfobox .box .icon .fa-map-marker{
+    padding-bottom: 30px;
+}
 .contactinfobox .box .text{
     display: flex;
     margin-left: 20px;
@@ -694,6 +697,11 @@ header #toggle:after{
     .formbox{
         padding-left: 2rem;
         width: 90%;
+    }
+
+    .contactinfo{
+        min-width: 40%;
+        margin-left: 4rem;
     }
     .sci{
         height: 25px;
