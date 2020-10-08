@@ -745,8 +745,13 @@ header #toggle:after{
     
 }
 
+.item-box img{
+    height: 8rem;
+    padding-top: 2rem;
+}
+
 .item-box h6{
-    padding-top: 150px;
+    padding-top: 30px;
     padding-bottom: 10px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -760,6 +765,11 @@ header #toggle:after{
 }
 .item-box:hover{
     color: white;
+
+}
+
+.item-box:hover img{
+    display: none;
 }
 
 .item-box:hover a{
@@ -767,6 +777,7 @@ header #toggle:after{
 }
 
 .item-box:hover h6{
+    padding-top: 150px;
     color: white;
 }
 
@@ -1261,20 +1272,20 @@ header #toggle:after{
 }
 
 .item-box:hover{
-    background-image: none;
+    background-image: ;
 }
 
 .item-box:hover a{
-    color:  orangered;
+    color:  white;
 }
 
 .item-box:hover h6{
-    color: #333;
+    color: white;
     text-decoration: underline;
 }
 
 .graines:hover{
-    background-image: none;
+    background-im
     transition: none;
     transition-delay: none;
     transform: none;
@@ -1286,7 +1297,7 @@ header #toggle:after{
 
 .beans:hover{
     
-    background-image: none;
+    background-image: ;
     transition: none;
     transition-delay: none;
     transform: none;
@@ -1296,7 +1307,7 @@ header #toggle:after{
 
  .poultry:hover{
  
-    background-image: none;
+    background-imag
     transition: none;
     transition-delay: none;
     transform: none;
@@ -1306,7 +1317,7 @@ header #toggle:after{
 
 .spices:hover{
      
-    background-image: none;
+    backgrou
     transition: none;
     transition-delay: none;
     transform: none;
@@ -1316,7 +1327,7 @@ header #toggle:after{
 }
 
 .livestock:hover{
-    background-image: none;
+    background-
     transition: none;
     transition-delay: none;
     transform: none;
@@ -1326,7 +1337,7 @@ header #toggle:after{
 
 
 .fertilizer:hover{
-    background-image: none;
+    background-
     transition: none;
     transition-delay: none;
     transform: none;
