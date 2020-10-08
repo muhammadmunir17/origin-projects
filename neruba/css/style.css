@@ -91,6 +91,10 @@ header #toggle:after{
     transition: 0.5s;
     z-index: 2;
 }
+.banner header img{
+    filter: sepia(100%) hue-rotate(150deg) saturate(1000%);
+}
+
 
 .banner .content a{
     position: relative;
